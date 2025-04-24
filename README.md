@@ -7,7 +7,6 @@ LeetNotes automatically extracts your accepted LeetCode submission, generates AI
 - **Detect** code, problem title & language from your active LeetCode tab  
 - **Generate** notes via OpenAI: summary, intuition, explanation, pseudocode, dry run, complexities & suggested tags  
 - **Save** into Google Docs (“LeetNotes”), creating the doc if missing, appending each on a new page  
-- **Copy** your code to clipboard  
 - **UI** built with React & Tailwind CSS  
 - **Toasts** for success & error feedback  
 - **Secure** storage of your OpenAI key & OAuth via Chrome Identity
