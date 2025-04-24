@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "LeetNotes",
+  "version": "1.0",
+  "description": "Generate AI notes from LeetCode and save to Google Docs",
+  "permissions": [
+    "storage",      
+    "scripting",    
+    "activeTab",    
+    "identity"
+  ],
+  "host_permissions": [
+    "https://leetcode.com/*",                      
+    "https://www.googleapis.com/",                  
+    "https://generativelanguage.googleapis.com/"   
+  ],
+  "oauth2": {
+    
+    "client_id": "508567953139-4cin4jci54b7sr2knq6aj07iod3cndtm.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive.file",
+      "https://www.googleapis.com/auth/documents"
+    ]
+  },
+  "action": {
+    "default_popup": "popup.html", 
+    "default_icon": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js", 
+    "type": "module"                   
+  },
+  "icons": { 
+    "16": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png" 
+  }
+}

@@ -1,0 +1,12 @@
+# Dependencies
+/node_modules/
+
+# Built extension
+/dist/
+
+# Mac/Linux temp files
+.DS_Store
+
+# Environment variables (if you choose to use .env)
+/.env
+
