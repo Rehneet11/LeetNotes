@@ -27,3 +27,4 @@ LeetNotes automatically extracts your accepted LeetCode submission, generates AI
 - **Watch**: `npm run dev`  
 - **Clean**: `rm -rf dist/ && mkdir dist/`
 
+

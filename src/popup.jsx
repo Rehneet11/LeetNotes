@@ -137,3 +137,4 @@ if (container) {
 } else {
   console.error("Could not find root element to render popup.");
 }
+

@@ -292,6 +292,7 @@ Generate the notes in a clear, well-formatted manner. Ensure complexity analysis
     } catch (error) {
       sendResponse({ success: false, error: error.message || 'An unknown error occurred.' });
     }
+    
   })();
   return true;
 });
